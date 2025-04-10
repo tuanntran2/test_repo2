@@ -1,0 +1,11 @@
+name: Caller Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-resusable-workflow:
+    uses: tuanntran2/test_repo/blob/main/.github/workflows/reusable_workflow.yaml
+    with:
+      name: "Andrew"
+      greeting: 'Hello'
