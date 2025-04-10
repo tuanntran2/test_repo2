@@ -5,7 +5,7 @@ on:
 
 jobs:
   call-resusable-workflow:
-    uses: tuanntran2/test_repo/blob/main/.github/workflows/reusable_workflow.yaml
+    uses: tuanntran2/test_repo/.github/workflows/reusable_workflow.yaml
     with:
       name: "Andrew"
       greeting: 'Hello'
